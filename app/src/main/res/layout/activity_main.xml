@@ -71,9 +71,10 @@
         app:layout_constraintVertical_bias="0.684" />
 
     <Button
-        android:id="@+id/btnSimples"
+        android:id="@+id/simples"
         android:layout_width="132dp"
         android:layout_height="51dp"
+        android:onClick="simples"
         android:text="Simples"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,9 +85,10 @@
         app:layout_constraintVertical_bias="0.941" />
 
     <Button
-        android:id="@+id/btnComposto"
+        android:id="@+id/composto"
         android:layout_width="131dp"
         android:layout_height="52dp"
+        android:onClick="composto"
         android:text="Composto"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -97,7 +99,7 @@
         app:layout_constraintVertical_bias="0.942" />
 
     <RadioButton
-        android:id="@+id/radioButton"
+        android:id="@+id/radiomes"
         android:layout_width="83dp"
         android:layout_height="53dp"
         android:text="a.m."
@@ -110,7 +112,7 @@
         app:layout_constraintVertical_bias="0.784" />
 
     <RadioButton
-        android:id="@+id/taxaAA"
+        android:id="@+id/radioano"
         android:layout_width="86dp"
         android:layout_height="50dp"
         android:text="a.a."
@@ -123,7 +125,7 @@
         app:layout_constraintVertical_bias="0.781" />
 
     <EditText
-        android:id="@+id/edtValorFi"
+        android:id="@+id/valorfinan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -136,7 +138,7 @@
         app:layout_constraintVertical_bias="0.272" />
 
     <EditText
-        android:id="@+id/edtTaxa"
+        android:id="@+id/taxa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -149,7 +151,7 @@
         app:layout_constraintVertical_bias="0.447" />
 
     <EditText
-        android:id="@+id/edtTotal"
+        android:id="@+id/tempo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
